@@ -7,7 +7,8 @@
 <body>
     <form method="post" action="">
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" required><br>
+        <input type="text" name="nome" requ
+        // Calcula a idade subtraired><br>
 
         <label for="ano_nascimento">Ano de Nascimento:</label>
         <input type="number" name="ano_nascimento" placeholder="AAAA" required><br>
@@ -21,8 +22,7 @@
         // Recebe e armazena os dados do formulário
         $nome = $_POST['nome'];
         $ano_nascimento = (int)$_POST['ano_nascimento'];
-
-        // Calcula a idade subtraindo o ano de nascimento do ano atual
+indo o ano de nascimento do ano atual
         $idade = date('Y') - $ano_nascimento;
 
         // Verifica se a idade é maior ou igual a 18
